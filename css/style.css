@@ -440,3 +440,41 @@ div {
 }
 
 /* Remove the above. */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navSection {
+  background-color: white;
+
+  text-align: center;
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 4.5em
+}
+
+.navList {
+  list-style-type: none;
+}
+
+.navList > li {
+  display: inline;
+  padding: .8em;
+  color: gray;
+}
+
+#meetKarma {
+  color: black;
+  font-weight: bold
+}
+
+#navLogo {
+  width: 1.5em;
+  vertical-align: bottom;
+  padding-right: 10em;
+}
