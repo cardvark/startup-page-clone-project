@@ -425,3 +425,18 @@ td,
 th {
   padding: 0;
 }
+
+/* My shit starts here. 
+   ========================================================================== */
+
+/* Remove the below items once finished - this helps define spacing and such. */
+
+body {
+  background-color: LightGray;
+}
+
+div {
+  border: 1px solid Chocolate;
+}
+
+/* Remove the above. */
