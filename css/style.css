@@ -455,6 +455,12 @@ body {
   padding: 0;
 }
 
+/* 
+Navbar section styles.
+=====================================================================
+
+ */
+
 .navSection {
   background-color: white;
 /* 
@@ -522,3 +528,14 @@ body {
   height: 4.375em;
 }
 
+/* 
+Styles for the intro Section, with main background image.
+================================================================  
+
+*/
+
+
+
+.introSection {
+  background-image: url("images/background-image.jpg");
+}
