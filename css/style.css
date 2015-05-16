@@ -476,14 +476,20 @@ body {
   font-size: 1em;
   color: #838994;
   letter-spacing: 0.03em;
+} 
+
+.navSection > .content> .navList > li > a:link, a:hover, a:visited, a:active {
+  color: #838994;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 }
 
-.navSection .navList li:hover {
-  color: black;
+.navSection .navList li a:hover {
+  color: #333333;
   cursor: pointer;
 }
 
-.navSection .navList > .active {
+.navSection .navList > .active > a {
   color: #4c5058;
   font-weight: 600;
 }
@@ -492,14 +498,13 @@ body {
   list-style-type: none;
   float: right;
   margin-top: 1.5em;
-
+  -webkit-font-smoother: antialiased;
 }
 
 
 .navList > li {
-  display: inline;
-  padding: .8em;
-  color: gray;
+  display: inline-block;
+  margin-left: 1.5em;
 }
 
 /* #meetKarma {
