@@ -453,6 +453,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* 
@@ -463,6 +464,8 @@ Navbar section styles.
 
 .navSection {
   background-color: white;
+  position: fixed;
+  width: 100%;
 /* 
   text-align: center;
   position:fixed;
@@ -473,15 +476,18 @@ Navbar section styles.
   height: 4.5em */
 }
 
-.navSection > .content {
-  max-width: 970px;
-  height: 4.375em;
+.content {
   margin: 0 auto;
   padding: 0px 1em;
-  font-family: 'Roboto', sans-serif;
+  min-width: 37.5rem;
+}
+
+.navSection > .content {
+  height: 4.375em;
   font-size: 1em;
   color: #838994;
   letter-spacing: 0.03em;
+  width: 60%;
 } 
 
 .navSection > .content> .navList > li > a:link, a:hover, a:visited, a:active {
@@ -539,13 +545,34 @@ Styles for the intro Section, with main background image.
 .introSection {
   background-image: url("../images/background-image.jpg");
   background-size: cover;
-  background-repeat: none;
-  background-position: center;
-  height: 675px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 45.938rem;
+  overflow: auto;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
 }
 
+.introSection > .content {
+  color: white;
+}
+
+.introSection h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+
+.introSection h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
+
+.introSection > h1, h3 {
+  text-align: center;
+  font-weight: 300;
+  line-height: 0em;
+}
+
+/* 
 .introSection::before {
   content:"";
   display: inline-block;
@@ -586,4 +613,4 @@ Styles for the intro Section, with main background image.
 
 #learnButton > span {
   line-height: 3em;
-}
+} */
