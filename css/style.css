@@ -490,6 +490,7 @@ Navbar section styles.
   margin: 0 auto;
   padding: 0px 1em;
   min-width: 37.5rem;
+  z-index: 9999;
 }
 
 .navSection > .content {
@@ -497,7 +498,8 @@ Navbar section styles.
   font-size: 1.04rem;
   color: #838994;
   letter-spacing: 0.0em;
-  width: 60%;
+  width: 60rem;
+
 } 
 
 .navSection > .content> .navList > li > a:link, a:hover, a:visited, a:active {
@@ -644,3 +646,55 @@ Styles for the intro Section, with main background image.
 #learnButton > span {
   line-height: 3em;
 } */
+
+/* 
+icons sections
+====================================================================
+ */
+
+ .iconSection {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+
+  .iconSection .content {
+    padding-bottom: 7.5rem;
+    width: 60rem;
+  }
+
+ .iconSection h2 {
+    padding-top: 7.8rem;
+    padding-bottom: 3rem;
+    font-size: 2.75rem;
+    font-weight: 300;
+ }
+
+ .iconsList {
+    list-style-type: none;
+    margin: 0 auto;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+ }
+
+ .iconsList li {
+/*     display: inline-block; */
+/*     padding: 3rem 1rem; */
+    width: 33%;
+    float: left;
+ }
+
+  .icons {
+    width: 8rem;
+    height: 8rem;
+ }
+
+  .iconText {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    width: 100%;
+  }
