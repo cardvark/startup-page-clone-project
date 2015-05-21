@@ -657,7 +657,7 @@ icons sections
     background-color: white;
     text-align: center;
     width: 100%;
-    padding-bottom: 5rem;
+
   }
 
   .iconSection .content {
@@ -726,5 +726,41 @@ Footer Section
 
 .iconLinks li {
   display: inline-block;
-  border-radius: 
+}
+
+.iconLinks li:hover {
+  cursor: pointer;
+}
+
+.twitterIcon, .facebookIcon, .instagramIcon {
+  /*
+  Note - border-radius needs to be 50% (at least?  or exactly?) of height and width.  
+
+  Padding to half the border radius seems to have vertically centered the icons. 
+   */
+  padding: 0.625rem 0; 
+  border: 1px solid LightGray;
+  margin: 1.25rem 5px;
+  border-radius: 50%; /* was 1.25rem; changed to 50%. */
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+}
+
+.twitterIcon{
+  color: #55ACEE;
+}
+
+.facebookIcon{
+  color: #4C66A4;
+}
+
+.instagramIcon{
+  color: #3F729B;
+}
+
+.copy {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #838994;
 }
