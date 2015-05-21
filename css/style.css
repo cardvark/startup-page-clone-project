@@ -441,13 +441,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* Remove the below items once finished - this helps define spacing and such. */
 
-body {
+/* body {
 background-color: LightGray;
 }
 
 div {
   border: 1px solid Chocolate;
-}
+} */
 
 /* Remove the above. */
 
@@ -476,6 +476,7 @@ Navbar section styles.
   background-color: white;
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid #DDD;
 /* 
   text-align: center;
   position:fixed;
@@ -698,3 +699,23 @@ icons sections
     font-size: 1.5rem;
     width: 100%;
   }
+
+/* 
+Footer Section
+==================================================================
+ */
+
+.footerSection {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10rem;
+
+}
+
+.footerSection hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+  width: 100%;
+}
